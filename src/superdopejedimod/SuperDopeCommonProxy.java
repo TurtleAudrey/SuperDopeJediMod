@@ -4,7 +4,6 @@ package superdopesquad.superdopejedimod;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 
 import java.lang.reflect.Proxy;
-
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumHand;
@@ -32,9 +31,10 @@ public class SuperDopeCommonProxy {
     }
     
     
-	public void credit_displayCreditGui(int stackSize) {
-		
-	}
+	public void displayCreditGui(int stackSize) {}
+	
+	
+	public void displayFactionGui(EntityPlayer player) {}
 }
 
 
